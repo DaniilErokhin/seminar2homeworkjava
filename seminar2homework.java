@@ -79,7 +79,7 @@ public class seminar2homework {
                 int arr[] = { 64, 34, 25, 90, 12, 22, 11 };
         String pathProject = System.getProperty("user.dir");
         System.out.println(pathProject);
-        String pathFile = pathProject.concat("/homework_2/task1.log");
+        String pathFile = pathProject.concat("seminar2homework.log");
         printArray(arr);
         bubbleSort(arr, pathFile);
         printArray(arr);
